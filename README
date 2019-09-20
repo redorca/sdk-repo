@@ -2,3 +2,8 @@
     Repo Creation package kit.
 
 
+    Create and manage package repositories for various formats such as rpm, deb, pypi, snap, and whatever else looks interesting.
+
+    The tool maps an incoming request to a packaging schema that fulfills the request. Intended to allow multiple packaging support from a singular group of bits, taking the binaries and packaging on the fly as demanded by the schema, tools could more readily cover broader installation sets.
+ 
+    The companion tool, sdk-pkgs, maps the bits back through the schema.
